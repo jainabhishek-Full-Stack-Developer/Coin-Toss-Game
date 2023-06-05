@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  padding: 30px;
+}
+.coinTossContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding: 24px;
+  width: 80%;
+}
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.tossResultImage {
+  width: 120px;
+  height: 120px;
+}
+.button {
+  background-color: #ffda6f;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.countContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+@media screen and (min-width: 768px) {
+  .coinTossContainer {
+    max-width: 500px;
+    padding: 64px;
+  }
+  .heading {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .description {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .tossResultImage {
+    width: 180px;
+    height: 180px;
+  }
+  .button {
+    margin-top: 25px;
+  }
+  .countContainer {
+    margin-top: 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+}
